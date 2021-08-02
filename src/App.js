@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import { routes } from './routes';
 import Loader from './components/Loader';
 
+
 const HomePageRus = lazy(() =>
   import('./views/HomePages-rus' /*webpackChunkName: "home-rus"*/),
 );

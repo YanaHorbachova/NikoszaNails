@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Navigation from '../components/Navigation';
+import AppBar from '../components/AppBar';
+import s from '../App.module.css'
 
 class HomeRus extends Component {
 
 render () {
     return (
-        <>        
-        <Navigation />
-        </>
+        <div className={s.container}>     
+            < AppBar /> 
+        </div>
     );
 };
 }

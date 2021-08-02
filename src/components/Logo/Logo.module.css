@@ -1,0 +1,36 @@
+@import '../../colors.css';
+
+    @media only screen and (max-width: 767px) {
+        .Logo {
+            display: block;
+            width: 100px;
+            margin-top: 5px;
+            /* margin-left: 10px;     */
+            border-radius: 50%;
+        }
+        
+        .Image {            
+            position: absolute;
+            top:2px;
+            width: 100px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        .Logo {
+            margin-left: 15px;
+        }
+
+        .Image {
+            width: 75px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .Logo {
+            margin-left: 30px; 
+        }
+
+        .Image {
+            width: 100px;
+        }
+    }

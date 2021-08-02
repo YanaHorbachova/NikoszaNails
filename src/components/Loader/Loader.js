@@ -8,8 +8,8 @@ const AppLoader = () => {
     <div className={styles.Loader}>
       <Loader
         style={styles}
-        type="BallTriangle"
-        color="teal"
+        type="Rings"
+        color="#fa9fc9"
         height={100}
         width={100}
       />

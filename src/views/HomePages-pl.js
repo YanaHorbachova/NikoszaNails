@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Navigation from '../components/Navigation';
+import AppBar from '../components/AppBar';
 
 class HomePl extends Component {
 
 render () {
     return (
-        <>        
-        <Navigation />
-        </>
+        <div>        
+        <AppBar />
+        </div>
     );
 };
 }
