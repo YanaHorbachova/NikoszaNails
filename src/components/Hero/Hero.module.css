@@ -1,0 +1,10 @@
+.Hero {
+    padding: 10px;
+} 
+
+@media screen and (max-width: 767px) {
+    .Hero {
+        align-items: center;
+        padding: 0;
+    } 
+}

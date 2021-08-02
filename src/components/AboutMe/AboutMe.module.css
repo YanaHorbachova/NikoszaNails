@@ -1,0 +1,40 @@
+.text {
+    padding: 10px;    
+    width: 300px;
+}
+.Image {
+    margin: 15px;
+    width: 300px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .text {
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .Image {
+        position:absolute;
+        top: 80px;
+        right: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .text {
+        width: 500px;
+        margin-left: 15px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .Image {
+        top: 100px;
+        right: 30px;
+        margin: 15px;
+        width: 450px;
+    }
+
+}
