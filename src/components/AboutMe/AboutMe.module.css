@@ -1,15 +1,20 @@
 .text {
     padding: 10px;    
-    width: 300px;    
+    width: 300px;        
+    z-index: 1;
 }
 
 .Image {
     margin: 15px;
-    width: 300px;
+    width: 300px;    
+    border-radius: 15%;
 }
 
-.ImageBg {
-
+.ImageBg {  
+    position:absolute;
+    top: 515px;    
+    width: 320px;  
+    z-index: 0;
 }
 
 
@@ -23,11 +28,12 @@
         position:absolute;
         top: 80px;
         right: 15px;
-        border-radius: 15%;
     }
 
     .ImageBg {
-        position:absolute;
+        top: 180px;
+        width: auto;
+        height: 280px;  
     }
 
 }
@@ -36,9 +42,8 @@
     .text {
         width: 500px;
         margin-left: 15px;
-        font-size: 20px;
+        font-size: 20px;            
         line-height: 1.5;
-        z-index: 1;
     }
 
     .Image {
@@ -49,9 +54,10 @@
     }
 
     .ImageBg {
-        height: 700px;
-        top: 50px;
-        left: 10px;
+        width: auto;
+        height: 370px;
+        top: 200px;
+        left: 140px;
         z-index: 0;
     }
 }
