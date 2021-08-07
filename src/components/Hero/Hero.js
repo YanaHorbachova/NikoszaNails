@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutMe from '../AboutMe/AboutMe';
-import AboutMePl from '../AboutMe/AboutMePl'
+import AboutMe from './AboutMe/AboutMe';
+import AboutMePl from './AboutMe/AboutMePl'
 import style from './Hero.module.css';
 
 const Hero = () => {

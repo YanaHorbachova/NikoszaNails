@@ -1,0 +1,21 @@
+{
+
+    "ru": [
+        {"title": "Маникюр гигиенический", "priсe":"60", "value":"злотых"},
+        {"title": "Маникюр с покрытием гель-лаком", "priсe":"100", "value":"злотых"},
+        {"title": "Маникюр с укреплением гелем", "priсe":"130", "value":"злотых"},
+        {"title": "Длинна 'MAXI'", "priсe":"+10", "value":"злотых"},
+        {"title": "Дизайн на 1 ноготке", "priсe":"+5/10", "value":"злотых"},
+        {"title": "Дизайн на 10 ноготях", "priсe":"+10/20", "value":"злотых"}
+    ],
+
+    "pl": [
+        {"title": "Manicure Higieniczny", "priсe":"60", "value":"zł"},
+        {"title": "Manicure Hybrydowy", "priсe":"100", "value":"zł"},
+        {"title": "Manicure Żelowy", "priсe":"130", "value":"zł"},
+        {"title": "Długość 'MAXI'", "priсe":"+10", "value":"zł"},
+        {"title": "Ozdoba 1 paznokcia", "priсe":"+5/10", "value":"zł"},
+        {"title": "Ozdoba 10 paznokcia", "priсe":"+10/20", "value":"zł"}
+    ]
+    
+}

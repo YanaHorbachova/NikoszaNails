@@ -1,7 +1,7 @@
 import React from 'react';
-import Section from '../Section';
-import BgText from '../../img/bgherotext.png'
-import Mi from '../../img/Mi.jpg';
+import Section from '../../Section';
+import BgText from '../../../img/bgherotext.png'
+import Mi from '../../../img/Mi.jpg';
 import style from './AboutMe.module.css';
 
 const AboutMe = () => {

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter} from 'react-router-dom' ;
+import 'modern-normalize/modern-normalize.css';
 import App from './App';
 import './index.css';
-import 'modern-normalize/modern-normalize.css';
 
 ReactDOM.render(
   <React.StrictMode>

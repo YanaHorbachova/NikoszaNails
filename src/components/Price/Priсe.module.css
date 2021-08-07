@@ -1,0 +1,18 @@
+.Priсe {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--ligte-background-color);
+    color: var(--activ-color);
+
+}
+
+.PriseList {
+}
+
+.list_item{
+display: flex;
+justify-content:space-between;
+font-size: 18px;
+color: var(--activ-color);
+}

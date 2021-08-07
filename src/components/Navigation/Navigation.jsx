@@ -10,8 +10,7 @@ const Navigation = () => {
           <Logo/>
           <ul className={style.ListItem}>
             <li className={style.Item}>Обо мне</li>
-            <li className={style.Item}>Услуги</li>
-            <li className={style.Item}>Цены</li>
+            <li className={style.Item}>Услуги и Цены</li>
             <li className={style.Item}>Мои работы</li>            
             <li className={style.Item}>Статьи</li>
             <li className={style.Item}>Отзывы</li>

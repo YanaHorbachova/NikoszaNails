@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
+
 .nav {
     display: flex;
     height: 40px;
+    font-family: 'Cormorant Infant', serif;
     border-bottom: 1px solid var(--background-color);    
 }
 .navbg {

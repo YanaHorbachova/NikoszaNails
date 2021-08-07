@@ -1,9 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
 .section {
     display: flex;    
     flex-direction: column;
     padding: 10px;
-    /* font-family: 'Cormorant Infant', serif; */
+    font-family: 'Cormorant Infant', serif;
   }
   
   .title {

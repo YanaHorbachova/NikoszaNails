@@ -10,8 +10,7 @@ const NavigationPl = () => {
           <Logo/>
           <ul className={style.ListItem}>
             <li className={style.Item}>O mnie</li>
-            <li className={style.Item}>Usługi</li>
-            <li className={style.Item}>Ceny</li>
+            <li className={style.Item}>Usługi ta Ceny</li>
             <li className={style.Item}>Moje prace</li>            
             <li className={style.Item}>Artykuły</li>
             <li className={style.Item}>Recenzje</li>

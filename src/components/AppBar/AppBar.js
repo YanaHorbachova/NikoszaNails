@@ -1,5 +1,5 @@
 import React from 'react';
-import LanguageBar from '../LanguageBar';
+import LanguageBar from './LanguageBar';
 import Navigation from '../Navigation/Navigation';
 import NavigationPl from '../Navigation/NavigationPl';
 import style from './AppBar.module.css';
