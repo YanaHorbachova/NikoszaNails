@@ -21,7 +21,8 @@ ul {
   list-style: none;
 }
 
-.link {
+.link,
+a {
   text-decoration: none;
 }
 
