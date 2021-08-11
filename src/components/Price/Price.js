@@ -12,8 +12,8 @@ const Price = () => {
              <PriceList items={items.ru} title='Услуги и цены' /> 
             : <PriceList items={items.pl} title='Eckeub b wtys'/> }
           {Url === '/' ?           
-            <Button text='Запись' />
-            : <Button text='Zapisz sie' />}
+            <Button text='Записатся' />
+            : <Button text='Zapisz się' />}
         </div> 
       );
     };
