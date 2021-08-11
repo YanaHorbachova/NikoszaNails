@@ -24,6 +24,11 @@
 
 }
 
+.Item:hover {
+    color: var(--background-color);
+    transform: scale(1.15);
+}
+
 @media screen and (min-width: 768px) {
     .nav {
         height: 60px; 
@@ -65,8 +70,5 @@
     
     }
 
-    .Item:hover {
-        color: var(--background-color);
-        transform: scale(1.15);
-    }
+
 }
