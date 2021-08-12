@@ -1,15 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
-
-
 .nav {
     display: flex;
     height: 40px;
-    font-family: 'Cormorant Infant', serif;
     border-bottom: 1px solid var(--background-color);    
 }
 .navbg {
     height: 30px;
-    background: url("../../img/PeonyLines.png") 70%;
+    background: url("../../../img/PeonyLines.png") 70%;
 }
 .ListItem {  
     /* display: flex;   
@@ -21,7 +17,6 @@
 .Item {
     color: var(--text-color);
     margin-right: 15px;
-
 }
 
 .Item:hover {

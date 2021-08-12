@@ -1,15 +1,16 @@
 import React from 'react';
 import LanguageBar from './LanguageBar';
-import Navigation from '../Navigation/Navigation';
-import NavigationPl from '../Navigation/NavigationPl';
+import NavigationBar from '../NavigationBar/';
+import MobileNavigationBar from '../NavigationBar/MobileNavigationBar';
 import style from './AppBar.module.css';
 
-const AppBar = () => {
-  const Url = window.location.pathname
+const AppBar = () => {  
+  const innerWidth = window.innerWidth
+  console.log(innerWidth)
     return (     
       <header className={style.AppBar}>
           <LanguageBar />
-          {Url === '/' ? <Navigation /> : <NavigationPl/>}
+          {innerWidth < 767 ? <MobileNavigationBar/> : <NavigationBar />}
       </header>
     );
   };
