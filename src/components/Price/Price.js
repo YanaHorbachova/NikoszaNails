@@ -12,8 +12,11 @@ const Price = () => {
              <PriceList items={items.ru} title='Услуги и цены' /> 
             : <PriceList items={items.pl} title='Eckeub b wtys'/> }
           {Url === '/' ?           
-            <Button text='Записатся' />
-            : <Button text='Zapisz się' />}
+            <Button text='Записатся' link='https://booksy.com/pl-pl/80275_nikosza-nails_paznokcie_13750_wroclaw' />
+            : <Button text='Zapisz się' link='https://booksy.com/pl-pl/80275_nikosza-nails_paznokcie_13750_wroclaw' />}
+          {Url === '/' ? 
+             <p>*Запись осуществляется через сервис Booksy </p>
+            : <p>*Rejestracja odbywa się za pośrednictwem serwisu Booksy </p> }
         </div> 
       );
     };

@@ -1,9 +1,9 @@
 import styles from './Button.module.css';
 
-const Button = ({text}) => {
+const Button = ({text, link}) => {
     return (
       <button type="button" className={styles.button}>
-       <a href="https://booksy.com/pl-pl/80275_nikosza-nails_paznokcie_13750_wroclaw">
+       <a href={link}>
          {text}</a> 
       </button>
     );
