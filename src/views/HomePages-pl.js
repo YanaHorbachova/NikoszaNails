@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AppBar from '../components/AppBar';
 import Hero from '../components/Hero';
 import Priсe from '../components/Price';
+import Gallery from '../components/Gallery/Gallery'
 import s from '../App.module.css'
 
 class HomePl extends Component {
@@ -11,7 +12,8 @@ render () {
         <div className={s.container}>        
             <AppBar />
             <Hero />        
-            <Priсe/>
+            <Priсe/>            
+            <Gallery/>
         </div>
     );
 };
