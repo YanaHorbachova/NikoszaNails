@@ -1,3 +1,5 @@
+@import '../../colors.css';
+
 .nav{
     display: flex;
     justify-content:space-between;
@@ -5,7 +7,7 @@
     padding: 10px 20px;
     font-size: 12px;
     font-weight:bold;
-    background-color: var(--activ-color);
+    background-color: var(--white-color);
     list-style: none;
     text-transform: uppercase;
 
@@ -21,5 +23,21 @@
 
 .LinkActive{
     background-color: var(--accent-text-color);
-    color: var(--activ-color);
+    color: var(--white-color);
+}
+
+.Link_salon {
+
+}
+
+.LinkActive_salon {
+
+}
+
+.Link_cours {
+
+}
+
+.LinkActive_cours {
+
 }

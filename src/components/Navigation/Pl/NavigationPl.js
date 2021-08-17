@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import { routes } from '../../routes';
-import s from'./Navigation.module.css';
+import { routes } from '../../../routes';
+import s from'../Navigation.module.css';
 
 const Navigation = () =>{
 
@@ -13,7 +13,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.team}
             activeClassName={s.LinkActive} >
-            <span>Команда</span>
+            <span>Zespół</span>
           </NavLink>
         </li>
         <li>
@@ -21,7 +21,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.salon}
             activeClassName={s.LinkActive} >
-            <span>Салон</span>
+            <span>Salon</span>
           </NavLink>
         </li>
         <li>
@@ -29,7 +29,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.work}
             activeClassName={s.LinkActive} >
-            <span>Работы</span>
+            <span>Praca</span>
           </NavLink>
         </li>
         <li>
@@ -37,7 +37,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.courses}
             activeClassName={s.LinkActive} >
-            <span>Курсы</span>
+            <span>Kursy</span>
           </NavLink>
         </li>
         <li>
@@ -45,7 +45,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.contacts}
             activeClassName={s.LinkActive} >
-            <span>Контакты</span>
+            <span>Łączność</span>
           </NavLink>
         </li>
       </ul>

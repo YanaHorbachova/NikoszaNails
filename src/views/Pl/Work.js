@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
 
-class UpGrade  extends Component {
+class Work  extends Component {
 
 render () {
     return (
         <div >     
-           <h2>Курс "UpGrade"</h2>
+           <h2>Praca</h2>
         </div>
     );
 };
 }
 
 
-export default UpGrade;
+export default Work;

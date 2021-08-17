@@ -1,11 +1,16 @@
 :root {
-    --activ-color: white;
-    --background-color: #fa9fc9;
-    --accent-text-color: #bc6977;
+    --white-color: white;
+    --accent-color: #bc6977;
+
+    --accent-text-color: black;
     --text-color: rgb(107, 107, 107);
+
+    --background-color: #fa9fc9;
     --ligte-background-color: #f8bbcfd5; 
+    
     --button-color:#fa9cb0;
     --ligte-button-color: #f793c1 ;
+
   }
   
  

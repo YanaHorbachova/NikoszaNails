@@ -5,9 +5,9 @@ export const routes = {
   work: '/work',    
   courses: '/courses',
   contacts: '/contacts',
-  interior: '/salon',
+  interior: '/salon/interior',
   price: '/salon/price',
   reviews: '/salon/reviews',
-  start_up: '/courses',
+  start_up: '/courses/startup',
   up_grade: '/courses/upgrade',
 };

@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 
 
-
-class Interior  extends Component {
+class Contacts  extends Component {
 
 render () {
     return (
         <div >     
-           <h2>Интерьер</h2>
-           
+           <h2>Łączność</h2>
         </div>
     );
 };
 }
 
 
-export default Interior;
+export default Contacts;
