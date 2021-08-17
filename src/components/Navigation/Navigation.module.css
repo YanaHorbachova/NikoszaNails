@@ -20,5 +20,6 @@
 }
 
 .LinkActive{
-    background-color: var(--activ-color)
+    background-color: var(--accent-text-color);
+    color: var(--activ-color);
 }
