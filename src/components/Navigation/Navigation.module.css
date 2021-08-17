@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 0;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight:bold;
+    background-color: var(--activ-color);
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.Link {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 32px;
+    color: var(--accent-text-color);
+
+}
+
+.LinkActive{
+    background-color: var(--activ-color)
+}

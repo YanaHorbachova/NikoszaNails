@@ -1,34 +1,47 @@
 import React, { Suspense, lazy }  from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { routes } from './routes';
 import Loader from './components/Loader';
+import LanguageBar from './components/LanguageBar'
+import Navigation from './components/Navigation/Navigation';
 
 
-const HomePageRus = lazy(() =>
-  import('./views/HomePages-rus' /*webpackChunkName: "home-rus"*/),
+const HomeRu = lazy(() =>
+  import('./views/HomeRu' /*webpackChunkName: "home-rus"*/),
 );
-const HomePagePl = lazy(() =>
-  import('./views/HomePages-pl' /*webpackChunkName: "home-pl"*/),
+const Team = lazy(() =>
+  import('./views/Ru/Team' /*webpackChunkName: "home-pl"*/),
 );
-const ArticlesRus = lazy(() =>
-  import('./views/Articles-rus' /*webpackChunkName: "articles-rus"*/),
+const Work = lazy(() =>
+  import('./views/Ru/Work' /*webpackChunkName: "home-pl"*/),
 );
-const ArticlesPl = lazy(() =>
-  import('./views/Articles-pl' /*webpackChunkName: "articles-pl"*/),
+const Salon = lazy(() =>
+  import('./views/Ru/Salon' /*webpackChunkName: "home-pl"*/),
 );
+const Courses = lazy(() =>
+  import('./views/Ru/Courses' /*webpackChunkName: "home-pl"*/),
+);
+const Contacts = lazy(() =>
+  import('./views/Ru/Contacts' /*webpackChunkName: "home-pl"*/),
+);
+const App  = () => {
 
-const App = () => (
+    return ( 
 <>
-<Suspense fallback={<Loader />}> 
-  <Switch>
-      <Route exact path={routes.home_rus} component={HomePageRus} />
-      <Route exact path={routes.home_pl} component = {HomePagePl} />
-      <Route exact path={routes.articles_rus} component={ArticlesRus} />
-      <Route exact path={routes.articles_pl} component={ArticlesPl} />
-      <Route component={HomePageRus} />
-  </Switch>
-</Suspense>
+  <Suspense fallback={<Loader />}> 
+    <LanguageBar/>
+    <Navigation/>
+    <Switch>
+          <Route exact path="/" component={HomeRu} />
+          <Route exact path="/team" component={Team} /> 
+          <Route exact path="/work" component = {Work} />
+          <Route exact path="/salon" component={Salon} />  
+          <Route exact path="/courses" component={Courses} />  
+          <Route exact path="/contacts" component={Contacts} />  
+          <Route component={HomeRu} />
+    </Switch>
+  </Suspense>
 </>
 );
+};
 
 export default App;

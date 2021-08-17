@@ -1,6 +1,13 @@
 export const routes = {
-    home_rus: '/',
-    home_pl: '/pl',
-    articles_rus: '/articles/:articleId',
-    articles_pl: '/pl/articles/:articleId',
-  };
+  home: '/',
+  team: '/team',
+  salon: '/salon',
+  work: '/work',    
+  courses: '/courses',
+  contacts: '/contacts',
+  interior: '/salon',
+  price: '/salon/price',
+  reviews: '/salon/reviews',
+  start_up: '/courses',
+  up_grade: '/courses/upgrade',
+};
