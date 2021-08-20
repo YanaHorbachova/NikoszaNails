@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import CoursesNav from '../Navigation/Ru/CoursesNav'
+import Section from '../Section';
 
 
 class StartUp  extends Component {
 
 render () {
     return (
-        <div > 
+        <Section> 
             <CoursesNav/>
-           <h2>Курс "StartUp"</h2>
-        </div>
+            <h2>Курс "StartUp"</h2>
+        </Section>
     );
 };
 }

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import CoursesNav from '../Navigation/Pl/CoursesNav'
+import Section from '../Section';
 
 class UpGradePl  extends Component {
 
 render () {
     return (
-        <div > 
+        <Section> 
             <CoursesNav/>    
            <h2>Kurs "UpGrade"</h2>
-        </div>
+        </Section>
     );
 };
 }

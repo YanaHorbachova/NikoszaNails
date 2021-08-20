@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Section from '../../components/Section/Section';
 
 
 class Contacts  extends Component {
 
 render () {
     return (
-        <div >     
+        <Section >     
            <h2>Контакты</h2>
-        </div>
+        </Section>
     );
 };
 }

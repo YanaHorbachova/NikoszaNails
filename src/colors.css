@@ -2,12 +2,14 @@
     --white-color: white;
     --accent-color: #bc6977;
 
-    --accent-text-color: black;
+    --accent-text-color: #f371ae;
     --text-color: rgb(107, 107, 107);
+    --title-color: black;
 
-    --background-color: #fa9fc9;
+    --background-color: #f76cac;
+    --background-color-section: rgba(240, 231, 237, 0.356);
     --ligte-background-color: #f8bbcfd5; 
-    
+
     --button-color:#fa9cb0;
     --ligte-button-color: #f793c1 ;
 

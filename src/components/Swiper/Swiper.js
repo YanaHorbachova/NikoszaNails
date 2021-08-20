@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {Navigation, Virtual} from 'swiper/core';
-// Import Swiper styles
 import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css"
 import "./Swiper.css";
@@ -10,7 +9,7 @@ import "./Swiper.css";
 SwiperCore.use([Navigation,Virtual]);
 
 
-export default function Slider({slides,params}) { 
+export default function Slider({slides,params,name}) { 
     // console.log(slides)
   return (
       <Swiper {...params}    
@@ -20,7 +19,7 @@ export default function Slider({slides,params}) {
         <SwiperSlide key={slide.index} virtualIndex={slide.index}>
           <img
             src={slide}
-            alt='manicure'
+            alt={name}
           />          
         </SwiperSlide>))} 
       </Swiper>

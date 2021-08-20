@@ -11,6 +11,19 @@ class App extends Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
+  componentDidUpdate() {
+    localStorage.setItem('checked', JSON.stringify(this.state.checked));
+  }
+
+  componentDidMount() {
+    const checked = localStorage.getItem('checked');
+    const parsedcHecked = JSON.parse(checked);
+
+    if (parsedcHecked) {
+      this.setState({ checked: parsedcHecked });
+    }
+  }
+
   handleChange(checked) {
     this.setState({ checked });
   }

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import SalonNavPl from '../Navigation/Pl/SalonNav'
+import Section from '../Section'
 
 class InteriorPl  extends Component {
 
 render () {
     return (
-        <div >  
+        <Section >  
            <SalonNavPl/> 
            <h2>Interior</h2>           
-        </div>
+        </Section> 
     );
 };
 }

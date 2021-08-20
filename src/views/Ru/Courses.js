@@ -7,11 +7,11 @@ class Courses  extends Component {
 
 render () {
     return (
-        <div > 
-             <Switch>
-                <Route  path={routes.courses} component={StartUp} />  
-            </Switch> 
-        </div>
+
+        <Switch>
+            <Route  path={routes.courses} component={StartUp} />  
+        </Switch> 
+
     );
 };
 }

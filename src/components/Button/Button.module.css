@@ -3,6 +3,7 @@
   width: 100px;
   margin: 10px;
   padding: auto;
+  margin: auto;
   color: var(--activ-color);
   background: linear-gradient(45deg, var(--ligte-button-color) 30%, var(--button-color) 90%);
   border: 0;

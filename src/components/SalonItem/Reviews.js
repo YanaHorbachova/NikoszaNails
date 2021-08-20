@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import SalonNav from '../Navigation/Ru/SalonNav'
+import Section from '../Section'
 
 class Reviews  extends Component {
 
 render () {
     return (
-        <div >   
+        <Section>   
            <SalonNav/> 
             <h2>Отзывы</h2>
-        </div>
+        </Section>
     );
 };
 }

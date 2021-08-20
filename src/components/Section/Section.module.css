@@ -1,0 +1,27 @@
+.section {
+    background-color: var(--background-color-section);
+}
+
+@media screen and (max-width: 767px) {
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(80%);
+        height: 100%;
+        margin: auto;        
+        margin-top: 30px;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .section {    
+        margin-top: 50px;
+        padding: 30px 10px;
+    }
+}
