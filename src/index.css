@@ -33,7 +33,6 @@ a {
 body {
   font-family: 'Cormorant Infant', serif;
   color: var(--text-color);
-  background-color: cadetblue;
 }
 
 code {

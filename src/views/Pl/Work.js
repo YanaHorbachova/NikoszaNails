@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
+import Gallery from '../../components/Gallery/Gallery';
 
 
 class Work  extends Component {
 
 render () {
     return (
-        <div >     
-           <h2>Praca</h2>
+        <div>     
+           <Gallery battonName='Więcej'/>
         </div>
     );
-};
-}
+}}
 
 
 export default Work;

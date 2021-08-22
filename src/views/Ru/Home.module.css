@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+    .HomePages {
+        height: 500px;
+        background: url(../../img/BiBody.jpg) 50%;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .HomePages {
+        height: 520px;    }
+
+}

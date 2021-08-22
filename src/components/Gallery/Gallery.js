@@ -6,15 +6,12 @@ import Button from '../Button/Button';
 import s from './Gallery.module.css';
 
 
-const Gallery = () => { 
-  const Url = window.location.pathname
+const Gallery = ({battonName}) => { 
+
     return (   
       <div className={s.Gallery}>
           <Slider slides={image} params={params} name='manicure' />
-          {Url === '/ru' ?           
-            <Button text='Больше работ' link='https://www.instagram.com/nikosza.nails/?hl=ru' />
-            : <Button text='Więcej' link='https://www.instagram.com/nikosza.nails/?hl=ru' />}
-
+          <Button text={battonName} link='https://www.instagram.com/nikosza.nails/?hl=ru'/>
       </div> 
        );
     };

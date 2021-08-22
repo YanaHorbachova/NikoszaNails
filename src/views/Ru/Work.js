@@ -7,7 +7,7 @@ class Work  extends Component {
 render () {
     return (
         <div>     
-           <Gallery/>
+           <Gallery battonName='Больше работ'/>
         </div>
     );
 };

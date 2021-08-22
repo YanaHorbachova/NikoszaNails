@@ -17,10 +17,10 @@ class App extends Component {
 
   componentDidMount() {
     const checked = localStorage.getItem('checked');
-    const parsedcHecked = JSON.parse(checked);
+    const parsedChecked = JSON.parse(checked);
 
-    if (parsedcHecked) {
-      this.setState({ checked: parsedcHecked });
+    if (parsedChecked) {
+      this.setState({ checked: parsedChecked });
     }
   }
 

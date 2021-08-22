@@ -1,27 +1,27 @@
 .section {
     background-color: var(--background-color-section);
 }
-
-@media screen and (max-width: 767px) {
- 
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(94%);
+    height: 100%;
+    margin: auto;
+    padding: 5px 5px;
 }
 
 @media screen and (min-width: 768px) {
     .section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: calc(80%);
-        height: 100%;
-        margin: auto;        
-        margin-top: 30px;
-        padding: 20px 10px;
+        width: calc(88%);    
+        margin-top: 10px;
+        padding: 10px 10px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .section {    
-        margin-top: 50px;
-        padding: 30px 10px;
+        margin-top: 15px;
+        padding: 15px 10px;
     }
 }
