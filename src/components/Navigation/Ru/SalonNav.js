@@ -3,6 +3,7 @@ import s from '../Navigation.module.css'
 import { NavLink } from 'react-router-dom';
 import { routes } from '../../../routes';
 
+
 const SalonNav = () =>  {
     return ( 
         <div>

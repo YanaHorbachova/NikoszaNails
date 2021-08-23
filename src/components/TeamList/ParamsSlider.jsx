@@ -13,11 +13,11 @@ const params = {
         slidesPerGroup: 2,
         spaceBetween: 10
       },
-      1280: {
-        slidesPerView: 3,                
-        slidesPerGroup: 3,
-        spaceBetween: 15
-      }
+      // 1280: {
+      //   slidesPerView: 3,                
+      //   slidesPerGroup: 3,
+      //   spaceBetween: 15
+      // }
     }    
   };
 

@@ -10,7 +10,7 @@ const Gallery = ({battonName}) => {
 
     return (   
       <div className={s.Gallery}>
-          <Slider slides={image} params={params} name='manicure' />
+          <Slider slides={image} params={params}/>
           <Button text={battonName} link='https://www.instagram.com/nikosza.nails/?hl=ru'/>
       </div> 
        );

@@ -10,30 +10,7 @@
 
 }
 
-.swiper-slide img {
-  display: block;
-  width: 300px;
-  height: 360px;
-  object-fit: cover;
-}
-
 .swiper-button-prev,
 .swiper-button-next {
     color: var(--ligte-background-color);
-}
-
-@media screen and (min-width: 768px) {
-  .swiper-slide img {
-    width: 350px;
-    height: 400px;
-  }
-
-}
-
-@media screen and (min-width: 1280px) {
-  .swiper-slide img {
-    width: 380px;
-    height: 420px;
-  }
-
 }
