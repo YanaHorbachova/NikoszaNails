@@ -22,10 +22,10 @@ const item3 = () => {
     )
 };
 
-const slides ={
+const items ={
     item1,
     item2,
     item3
 }
 
-export default slides;
+export default items;

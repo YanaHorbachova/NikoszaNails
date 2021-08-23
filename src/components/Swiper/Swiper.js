@@ -1,12 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {Navigation, Virtual} from 'swiper/core';
+import SwiperCore, {Navigation} from 'swiper/core';
 import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import "./Swiper.css";
 
 // install Swiper modules
-SwiperCore.use([Navigation,Virtual,]);
+SwiperCore.use([Navigation]);
 
 
 export default function Slider({slides,params}) { 
@@ -15,8 +15,8 @@ export default function Slider({slides,params}) {
       <Swiper {...params}    
       className="mySwiper">
         
-        {slides.map((slide, index) => (
-        <SwiperSlide key={slide.key} virtualIndex={index}>
+        {slides.map((slide) => (
+        <SwiperSlide key={slide.key} >
             {slide}
         </SwiperSlide>))} 
       </Swiper>

@@ -1,7 +1,7 @@
 const params = {
     preloadImages: true,
     navigation: true,
-    virtual: true,
+    loop: true,
     breakpoints: {
       320: {
         slidesPerView: 1,
