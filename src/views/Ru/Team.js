@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {ItemsRu} from '../../components/TeamList/TiamItems';
+import TeamList from '../../components/TeamList/TeamList';
 
 
 class Team  extends Component {
@@ -6,7 +8,7 @@ class Team  extends Component {
 render () {
     return (
         <div >     
-           <h2>Команда</h2>
+          <TeamList items={ItemsRu} />
         </div>
     );
 };

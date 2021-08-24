@@ -11,9 +11,14 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+    .nav{
+        flex-basis: calc(100% / 5 - 5px);
+     }   
+}
+
 .Link {
     display: block;
-    width: 110%;
     height: 20px;
     padding: 2px;
     padding-top: 3px;
@@ -121,7 +126,7 @@
     }
 
     .Link {
-        width: 280px;
+        width: 270px;
         height: 110px;
         margin-right: 15px;
         padding: 30px 10px;

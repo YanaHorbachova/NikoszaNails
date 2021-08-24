@@ -16,7 +16,7 @@ export default function Slider({slides,params}) {
       className="mySwiper">
         
         {slides.map((slide) => (
-        <SwiperSlide key={slide.key} >
+        <SwiperSlide key={slide.index} >
             {slide}
         </SwiperSlide>))} 
       </Swiper>

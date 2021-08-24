@@ -1,4 +1,4 @@
-const params = {
+const ParamsGallary = {
     preloadImages: true,
     navigation: true,
     loop: true,
@@ -21,4 +21,16 @@ const params = {
     }    
   };
 
-  export default params;
+  const ParamsTeam = {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    spaceBetween: 10,
+    preloadImages: true,
+    navigation: true,
+    loop: true,
+
+}
+
+  
+
+  export {ParamsGallary, ParamsTeam};

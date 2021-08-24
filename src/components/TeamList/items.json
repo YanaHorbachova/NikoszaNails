@@ -1,0 +1,49 @@
+{
+    "ru": {
+        "Natalia": 
+            {
+                "name": "Наталья Николаенко", 
+                "photo":"photo of Natalia",
+                "position":"Основатель, мастер маникюра и инструктор Nikosza Nails",
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis eum nisi modi, nulla, totam, cupiditate aliquid molestias sapiente nesciunt qui quas explicabo soluta laborum maiores ex natus accusamus quis."
+            },
+        "Anastasia": 
+            {
+                "name": "Анастасия", 
+                "photo":"photo of Anastasia", 
+                "position":"Мастер педикюра", 
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis eum nisi modi, nulla, totam, cupiditate aliquid molestias sapiente nesciunt qui quas explicabo soluta laborum maiores ex natus accusamus quis."
+            },
+        "Lida": 
+            {
+                "name": "Лида",
+                "photo":"photo of Lida",
+                "position":"Мастер маникюра", 
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis eum nisi modi, nulla, totam, cupiditate aliquid molestias sapiente nesciunt qui quas explicabo soluta laborum maiores ex natus accusamus quis."
+            }
+    },
+
+    "pl": {
+        "Natalia": 
+            {
+                "name": "Natalia Nikołaenko", 
+                "photo":"photo of Natalia",
+                "position":"Założycielka, Manicure i Instruktorka Nikosza Nails",
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis eum nisi modi, nulla, totam, cupiditate aliquid molestias sapiente nesciunt qui quas explicabo soluta laborum maiores ex natus accusamus quis."
+            },
+        "Anastasia": 
+            {
+                "name": "Anastasia", 
+                "photo":"photo of Anastasia", 
+                "position":"Stylistka Pedicure", 
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis eum nisi modi, nulla, totam, cupiditate aliquid molestias sapiente nesciunt qui quas explicabo soluta laborum maiores ex natus accusamus quis."
+            },
+        "Lida": 
+            {
+                "name": "Lida",
+                "photo":"photo of Lida",
+                "position":"Stylistka Manicure", 
+                "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis eum nisi modi, nulla, totam, cupiditate aliquid molestias sapiente nesciunt qui quas explicabo soluta laborum maiores ex natus accusamus quis."
+            }
+    }
+}
