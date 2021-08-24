@@ -5,7 +5,7 @@ import { routes } from './routes';
 import Navigation from './components/Navigation/Ru/Navigation';
 import Reviews from './components/SalonItem/Reviews';
 import Price from './components/SalonItem/Price';
-import Interior from './components/SalonItem/Interior';
+import Interior from './components/SalonItem/Interior/Interior';
 import StartUp from './components/CoursesItem/StartUp';
 import UpGrade from './components/CoursesItem/UpGrade';
 import Work from './views/Ru/Work'

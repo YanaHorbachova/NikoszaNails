@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { routes } from '../../routes';
-import InteriorPl from '../../components/SalonItem/InteriorPl';
+import InteriorPl from '../../components/SalonItem/Interior/InteriorPl';
 
 
 class Salon  extends Component {

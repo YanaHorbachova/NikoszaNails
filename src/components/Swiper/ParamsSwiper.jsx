@@ -21,6 +21,34 @@ const ParamsGallary = {
     }    
   };
 
+  const ParamsSalon = {
+    preloadImages: true,
+    navigation: true,
+    loop: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 10
+      },
+      768: {
+        slidesPerView: 2,                
+        slidesPerGroup: 2,
+        spaceBetween: 10
+      },
+      1024: {
+        slidesPerView: 3,                
+        slidesPerGroup: 3,
+        spaceBetween: 10
+      },
+      1280: {
+        slidesPerView: 4,                
+        slidesPerGroup: 4,
+        spaceBetween: 10
+      }
+    }    
+  };
+
   const ParamsTeam = {
     slidesPerView: 1,
     slidesPerGroup: 1,
@@ -31,6 +59,8 @@ const ParamsGallary = {
 
 }
 
+
+
   
 
-  export {ParamsGallary, ParamsTeam};
+  export {ParamsGallary, ParamsTeam, ParamsSalon};
