@@ -20,6 +20,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .Gallery { 
+    padding: 5px 20px;
+  }
+
   .GallaryImg {
     width: 380px;
     height: 420px;

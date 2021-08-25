@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/evolventa');
 
 *,
 *::before,
@@ -6,7 +6,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Cormorant Infant', serif;
+  font-family: 'Evolventa', sans-serif;
 }
 
 img {
@@ -31,6 +31,6 @@ a {
 
 
 body {
-  font-family: 'Cormorant Infant', serif;
+  font-family: 'Evolventa', sans-serif;
   color: var(--text-color);
 }

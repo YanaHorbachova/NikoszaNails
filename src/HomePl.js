@@ -8,6 +8,7 @@ import PricePl from './components/SalonItem/PricePl';
 import InteriorPl from './components/SalonItem/Interior/InteriorPl';
 import StartUpPl from './components/CoursesItem/StartUpPl';
 import UpGradePl from './components/CoursesItem/UpGradePl';
+import Footer from './components/Footer'
 
 
 const Home = lazy(() =>
@@ -49,6 +50,7 @@ const HomeRu = () => {
         <Route exact path={routes.up_grade} component={UpGradePl} />
         <Route component={Home} />
       </Switch>
+      <Footer/>
   </Suspense>
 </>
 );

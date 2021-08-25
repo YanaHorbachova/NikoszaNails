@@ -1,8 +1,8 @@
 import React from 'react';
 import {ru, pl} from './items.json'
 import Foto1 from '../../img/Natalia.jpg';
-import Foto2 from '../../img/Natalia.jpg';
-import Foto3 from '../../img/Natalia.jpg';
+import Foto2 from '../../img/Anastasia.jpg';
+import Foto3 from '../../img/Lida.jpg';
 import s from './TeamList.module.css';
 
 const item1 = () => {

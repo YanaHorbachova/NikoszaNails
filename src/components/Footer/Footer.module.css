@@ -1,0 +1,76 @@
+.Footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    background-color: var(--background-color);
+}
+
+.SocialList {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.SocialItem {    
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 2px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SocialItem svg {
+    width: 15px;
+    height: 15px;
+    fill: var(--white-color);
+}
+
+.logo {
+    color:var(--white-color);
+}
+
+@media screen and (min-width: 768px) {
+    .Footer{
+        font-size: 14px;
+        height: 25px;
+        padding: 0 30px;
+    }
+    
+    .SocialItem {    
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Footer{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .Footer{
+        font-size: 16px;
+        height: 25px;
+        padding: 0 60px;
+    }
+    
+    .SocialItem {    
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        padding: 2px;
+    }
+    
+    .SocialItem svg {
+        width: 15px;
+        height: 15px;
+    }
+
+}

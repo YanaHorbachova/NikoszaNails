@@ -1,10 +1,11 @@
 .TeamImg {
     width: 260px;
+    height: 320px;
 }
 
 .InfoBloсk {
     padding: 10px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;  
 }
 .title{
@@ -32,11 +33,12 @@
     }
     .TeamImg {
         width: 300px;
+        height: 375px;
         margin-right: 40px;
     }
     .InfoBloсk {
         padding: 15px;
-        font-size: 23px; 
+        font-size: 20px; 
         background-color: var(--background-color-section);  
     }
 }
@@ -48,6 +50,7 @@
     
     .TeamImg {
         width: 320px;
+        height: 390px;
         margin-right: 80px;
     }
 
@@ -65,6 +68,7 @@
     
     .TeamImg {
         width: 350px;
+        height: 420px;
         margin-right: 100px;
     }
 

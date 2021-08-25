@@ -8,7 +8,7 @@ import Price from './components/SalonItem/Price';
 import Interior from './components/SalonItem/Interior/Interior';
 import StartUp from './components/CoursesItem/StartUp';
 import UpGrade from './components/CoursesItem/UpGrade';
-import Work from './views/Ru/Work'
+import Footer from './components/Footer';
 
 
 const Home = lazy(() =>
@@ -17,9 +17,9 @@ const Home = lazy(() =>
 const Team = lazy(() =>
   import('./views/Ru/Team' /*webpackChunkName: "home-pl"*/),
 );
-// const Work = lazy(() =>
-//   import('./views/Ru/Work' /*webpackChunkName: "work"*/),
-// );
+const Work = lazy(() =>
+  import('./views/Ru/Work' /*webpackChunkName: "work"*/),
+);
 const Salon = lazy(() =>
   import('./views/Ru/Salon' /*webpackChunkName: "salon"*/),
 );
@@ -50,6 +50,7 @@ const HomeRu = () => {
         <Route exact path={routes.up_grade} component={UpGrade} />
         <Route component={Home} />
       </Switch>
+      <Footer/>
   </Suspense>
 </>
 );
