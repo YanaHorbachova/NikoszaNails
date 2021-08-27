@@ -1,3 +1,9 @@
+.TeamList{
+    position: relative;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
 .TeamImg {
     width: 260px;
     height: 320px;
@@ -8,7 +14,7 @@
 .InfoBloсk {
     padding: 10px;
     font-size: 14px;
-    text-align: center;  
+    text-align: center;
 }
 .title{
     margin-bottom: 10px;

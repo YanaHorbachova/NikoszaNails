@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SalonNavPl from '../Navigation/Pl/SalonNav'
-import Section from '../Section'
+import SalonNavPl from '../../Navigation/Pl/SalonNav'
+import Section from '../../Section'
 
 class PricePl  extends Component {
 

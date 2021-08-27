@@ -4,7 +4,7 @@ import Loader from './components/Loader';
 import { routes } from './routes';
 import NavigationPl from './components/Navigation/Pl/NavigationPl';
 import ReviewsPl from './components/SalonItem/ReviewsList/ReviewsPl';
-import PricePl from './components/SalonItem/PricePl';
+import PricePl from './components/SalonItem/Price/PricePl';
 import InteriorPl from './components/SalonItem/Interior/InteriorPl';
 import StartUpPl from './components/CoursesItem/StartUpPl';
 import UpGradePl from './components/CoursesItem/UpGradePl';

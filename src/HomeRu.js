@@ -4,7 +4,7 @@ import Loader from './components/Loader';
 import { routes } from './routes';
 import Navigation from './components/Navigation/Ru/Navigation';
 import Reviews from './components/SalonItem/ReviewsList/Reviews';
-import Price from './components/SalonItem/Price';
+import Price from './components/SalonItem/Price/Price';
 import Interior from './components/SalonItem/Interior/Interior';
 import StartUp from './components/CoursesItem/StartUp';
 import UpGrade from './components/CoursesItem/UpGrade';

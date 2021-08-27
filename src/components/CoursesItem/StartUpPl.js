@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import CoursesNav from '../Navigation/Pl/CoursesNav'
 import Section from '../Section';
+import { StartUpPl } from './items.json';
+import Slide from '../../img/Courses.jpg'
+import s from './Courses.module.css'
 
 
-class StartUpPl  extends Component {
+class StartUp  extends Component {
 
 render () {
     return (
         <Section>
-            <CoursesNav/>         
-           <h2>Kurs "StartUp"</h2>
+            <CoursesNav/>      
+            <div className={s.CoursesStartUp}>
+                <img className={s.CoursesImg} src={Slide} alt='manicure'/>
+                <p className={s.CoursesText}>{StartUpPl.text}</p>
+            </div>
         </Section>
     );
 };
 }
 
-export default StartUpPl;
+export default StartUp;
