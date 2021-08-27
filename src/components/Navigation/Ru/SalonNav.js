@@ -11,21 +11,21 @@ const SalonNav = () =>  {
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.interior}`}}>
-                <span>Интерьер</span>
+                Интерьер
             </NavLink>
 
             <NavLink 
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.price}`}} >
-                <span>Прайс</span>
+                Прайс
             </NavLink>
             
             <NavLink 
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.reviews}`}} >
-                <span>Отзывы</span>
+                Отзывы
             </NavLink>
 
         </div>              

@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Loader from './components/Loader';
 import { routes } from './routes';
 import NavigationPl from './components/Navigation/Pl/NavigationPl';
-import ReviewsPl from './components/SalonItem/RewiewsPl';
+import ReviewsPl from './components/SalonItem/ReviewsList/ReviewsPl';
 import PricePl from './components/SalonItem/PricePl';
 import InteriorPl from './components/SalonItem/Interior/InteriorPl';
 import StartUpPl from './components/CoursesItem/StartUpPl';

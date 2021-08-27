@@ -1,0 +1,38 @@
+.Reviews {    
+    width: 100%;
+    margin: 20px;    
+    text-align: center;
+}
+
+.ReviewsInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ReviewsPhoto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+}
+.ReviewsImg {
+    width: 100px;
+    margin: 0;
+
+}
+.ReviewsTitle {
+    width: 200px;
+    margin-bottom: 15px;
+
+}
+.ReviewsText {
+    width: 400px;
+}
+@media screen and (max-width: 767px) {
+    .ReviewsText {
+        width: 240px;
+        font-size: 16px;
+    }
+ 
+}

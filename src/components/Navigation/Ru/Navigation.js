@@ -8,44 +8,44 @@ const Navigation = () =>{
 
     <nav >
       <ul className={s.nav}> 
-        <li>
+        <li className={s.LinkItem}>
           <NavLink
             className={s.Link}
             to={routes.team}
             activeClassName={s.LinkActive} >
-            <span>Команда</span>
+            Команда
           </NavLink>
         </li>
-        <li>
+        <li className={s.LinkItem}>
           <NavLink
             className={s.Link}
             to={routes.salon}
             activeClassName={s.LinkActive} >
-            <span>Салон</span>
+            Салон
           </NavLink>
         </li>
-        <li>
+        <li className={s.LinkItem}>
           <NavLink
             className={s.Link}
             to={routes.work}
             activeClassName={s.LinkActive} >
-            <span>Работы</span>
+            Работы
           </NavLink>
         </li>
-        <li>
+        <li className={s.LinkItem}>
           <NavLink
             className={s.Link}
             to={routes.courses}
             activeClassName={s.LinkActive} >
-            <span>Курсы</span>
+            Курсы
           </NavLink>
         </li>
-        <li>
+        <li className={s.LinkItem}>
           <NavLink
             className={s.Link}
             to={routes.contacts}
             activeClassName={s.LinkActive} >
-            <span>Контакты</span>
+            Контакты
           </NavLink>
         </li>
       </ul>

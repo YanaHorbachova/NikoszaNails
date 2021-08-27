@@ -1,8 +1,8 @@
 import React from 'react';
 import image from './GalleryItem';
 import {ParamsGallary} from '../Swiper/ParamsSwiper';
-import Slider from '../Swiper/Swiper';
-import Button from '../Button/Button';
+import Slider from '../Swiper';
+import Button from '../Button/';
 import s from './Gallery.module.css';
 
 

@@ -12,11 +12,11 @@ return (
             <p className={s.logo}>NICOSZA nails &#xa9; 2021</p>
         </div>
         <ul className={s.SocialList}>
-            <li className={s.SocialItem}><a href="tel:+14251234563"><Phone/></a></li>
+            <li className={s.SocialItem}><a href="tel:+48578581656"><Phone/></a></li>
             <li className={s.SocialItem}><a href="mailto:example@mail.ru"><Email/></a></li>
-            <li className={s.SocialItem}><a href=""><Telegram/></a></li>
-            <li className={s.SocialItem}><a href="https://www.instagram.com/nikosza.nails/"><Instagram/></a></li>
-            <li className={s.SocialItem}><a href=""><Vk/></a></li>
+            <li className={s.SocialItem}><a target="_blank" rel="noreferrer noopener" href="341"><Telegram/></a></li>
+            <li className={s.SocialItem}><a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/nikosza.nails/"><Instagram/></a></li>
+            <li className={s.SocialItem}><a target="_blank" rel="noreferrer noopener" href="1341"><Vk/></a></li>
         </ul>
     </div>
 )};

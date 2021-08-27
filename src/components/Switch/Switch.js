@@ -12,8 +12,8 @@ const SwitchExample  = ({checked, onChange}) => {
                         onChange={onChange}
                         offColor="#bc6977"
                         onColor="#bc6977"
-                        offHandleColor="#f8bbcfd5"
-                        onHandleColor="##f8bbcfd5"
+                        offHandleColor="#f793c1"
+                        onHandleColor="#f793c1"
                         handleDiameter={10}
                         uncheckedIcon={false}
                         checkedIcon={false}

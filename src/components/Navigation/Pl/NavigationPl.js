@@ -13,7 +13,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.team}
             activeClassName={s.LinkActive} >
-            <span>Zespół</span>
+            Zespół
           </NavLink>
         </li>
         <li>
@@ -21,7 +21,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.salon}
             activeClassName={s.LinkActive} >
-            <span>Salon</span>
+            Salon
           </NavLink>
         </li>
         <li>
@@ -29,7 +29,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.work}
             activeClassName={s.LinkActive} >
-            <span>Praca</span>
+            Praca
           </NavLink>
         </li>
         <li>
@@ -37,7 +37,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.courses}
             activeClassName={s.LinkActive} >
-            <span>Kursy</span>
+            Kursy
           </NavLink>
         </li>
         <li>
@@ -45,7 +45,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.contacts}
             activeClassName={s.LinkActive} >
-            <span>Łączność</span>
+            Łączność
           </NavLink>
         </li>
       </ul>

@@ -56,11 +56,19 @@ const ParamsGallary = {
     preloadImages: true,
     navigation: true,
     loop: true,
+  }
 
-}
+  const ParamsReviews= {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    spaceBetween: 10,
+    preloadImages: true,
+    navigation: true,
+    loop: true,
+  }
 
 
 
   
 
-  export {ParamsGallary, ParamsTeam, ParamsSalon};
+  export {ParamsGallary, ParamsTeam, ParamsSalon, ParamsReviews};

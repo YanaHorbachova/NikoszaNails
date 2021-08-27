@@ -10,14 +10,14 @@ const SalonNav = () =>  {
             className={s.Link_cours} 
             activeClassName={s.LinkActive_cours}
             to={{pathname: `${routes.start_up}`}}>
-                <span>Kurs "StartUp"</span>
+                Kurs "StartUp"
             </NavLink>
 
             <NavLink 
             className={s.Link_cours} 
             activeClassName={s.LinkActive_cours}
             to={{pathname: `${routes.up_grade}`}} >
-                <span>Kurs "UpGrade"</span>
+                Kurs "UpGrade"
             </NavLink>
         </div>               
     );

@@ -10,21 +10,21 @@ const SalonNav = () =>  {
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.interior}`}}>
-                <span>Wnętrze</span>
+                Wnętrze
             </NavLink>
 
             <NavLink 
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.price}`}} >
-                <span>Cena</span>
+               Cena
             </NavLink>
             
             <NavLink 
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.reviews}`}} >
-                <span>Recenzje</span>
+                Recenzje
             </NavLink>
 
         </div>              
