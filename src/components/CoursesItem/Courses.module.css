@@ -2,10 +2,8 @@
 .CoursesUpGrade {
     position: relative;
     height: 100%;
-    margin-bottom: 25px;
     text-align: center;
 }
-
 .CoursesText{    
     padding: 10px;
     font-size: 14px;
@@ -52,5 +50,4 @@
         width: 400px;
         margin: 0 50px;
     }
-
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CoursesNav from '../Navigation/Ru/CoursesNav'
 import Section from '../Section';
+import Button from '../Button';
 import { UpGradeRu } from './items.json';
 import Slide from '../../img/Courses.jpg'
 import s from './Courses.module.css'
@@ -15,6 +16,7 @@ render () {
                 <img className={s.CoursesImg} src={Slide} alt='manicure'/>
                 <p className={s.CoursesText}>{UpGradeRu.text}</p>
             </div>
+            <Button text={"Записаться на курс"} link='https://web.telegram.org/z/#463272527'/>
         </Section>
     );
 };

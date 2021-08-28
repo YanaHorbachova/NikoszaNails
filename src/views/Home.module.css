@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     .HomePages {
         height: 500px;
-        background: url(../../img/BiBody.jpg) 80%;
+        background: url(../img/BiBody.jpg) 80%;
         background-size: cover;
     }
 }

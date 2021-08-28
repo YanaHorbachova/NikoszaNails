@@ -1,7 +1,7 @@
 import React, {Component } from 'react';
 // import { Route} from 'react-router-dom';
 // import Team from './Team'
-import s from './Home.module.css'
+import s from '../Home.module.css'
 
 class HomeRus extends Component {
 
