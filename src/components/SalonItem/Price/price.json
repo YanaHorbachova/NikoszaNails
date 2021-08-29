@@ -1,0 +1,42 @@
+{
+    "ru": {
+        "Manicure": [
+            {"title": "Маникюр гигиенический", "priсe":"60", "value":"злот"},
+            {"title": "Маникюр с покрытием гель-лаком", "priсe":"100", "value":"злот"},
+            {"title": "Маникюр с укреплением гелем", "priсe":"130", "value":"злот"},
+            {"title": "Длинна 'MAXI'", "priсe":"+10", "value":"злот"},
+            {"title": "Дизайн на 1 ноготке", "priсe":"+5/10", "value":"злот"},
+            {"title": "Дизайн на 10 ноготях", "priсe":"+10/20", "value":"злот"}
+        ],
+        "Pedicure": [
+            {"title": "Педикюр гигиенический", "priсe":"80", "value":"злот"},
+            {"title": "Педикюр гигиенический + обработка стопы", "priсe":"110", "value":"злот"},
+            {"title": "Педикюр с покрытием гель-лаком", "priсe":"110", "value":"злот"},
+            {"title": "Педикюр с покрытием гель-лаком + обработка стопы", "priсe":"140", "value":"злот"}
+        ],
+        "Other": [
+            {"title": "Маникюр и Педикюр одновременно", "priсe":"+30", "value":"злот"}
+        ]
+    },
+
+    "pl": {
+        "Manicure": [
+            {"title": "Manicure Higieniczny", "priсe":"60", "value":"zł"},
+            {"title": "Manicure Hybrydowy", "priсe":"100", "value":"zł"},
+            {"title": "Manicure Żelowy", "priсe":"130", "value":"zł"},
+            {"title": "Długość 'MAXI'", "priсe":"+10", "value":"zł"},
+            {"title": "Ozdoba 1 paznokcia", "priсe":"+5/10", "value":"zł"},
+            {"title": "Ozdoba 10 paznokcia", "priсe":"+10/20", "value":"zł"}
+        ],
+        "Pedicure": [
+            {"title": "Pedicure Higieniczny", "priсe":"80", "value":"zł"},
+            {"title": "Pedicure Higieniczny + Pielęgnacja stop", "priсe":"110", "value":"zł"},
+            {"title": "Pedicure Hybrydowy", "priсe":"110", "value":"zł"},
+            {"title": "Pedicure Hybrydowy + Pielęgnacja stop", "priсe":"140", "value":"zł"}
+        ],
+        "Other": [
+            {"title": "Mani i Pedi jednocześnie", "priсe":"+30", "value":"zł"}
+        ]
+    }
+    
+}

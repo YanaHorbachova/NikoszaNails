@@ -1,0 +1,83 @@
+.Price {
+    width: 100%;
+}
+.text{
+    padding-top: 7px;
+    font-size: 12px;
+    color: var(--accent-text-color);
+}
+.PriceListItems{    
+    display: flex;
+    align-items: center;
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+.PriceTitle {
+    height: 260px;
+    padding-top: 24px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;    
+    writing-mode: vertical-rl;
+}
+.PricePhoto {    
+    width: 200px;
+    height: 260px;
+    border-radius: 13%;
+    border: 5px solid var(--accent-color);
+}
+.PriceItems {    
+    width: 290px;
+    display: flex;  
+    justify-content: space-between; 
+    padding-top: 10px;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Price {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .PriceList {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Price {
+        display: flex;
+        justify-content: space-between;
+     }
+     .PriceList {
+        margin-right: 10px
+    }
+    .PriceItems {    
+        width: 280px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .Price {
+        padding: 0 20px;
+    }
+    .PriceListItems{
+        width: 270px;
+    }
+    .PriceTitle{
+        font-size: 24px;
+    }
+    .PricePhoto {
+        width: 250px;
+        height: 300px;
+    }
+    .PriceItems { 
+        font-size: 20px;
+        width: 370px;
+    }
+
+}

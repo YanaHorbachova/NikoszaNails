@@ -10,7 +10,7 @@ const ItemsRu = ru.map(({ name, reviews, foto }) => (
           <h3 className={s.ReviewsTitle}>{name}</h3>
           <p className={s.ReviewsText}>{reviews}</p>
         </div>
-      ))
+      ));
 
 const ItemsPl = pl.map(({ name, reviews, foto }) => (
     <div className={s.ReviewsInfo}>
