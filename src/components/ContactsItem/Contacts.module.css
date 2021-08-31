@@ -1,0 +1,93 @@
+.Contacts {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.map{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.ContactList{
+    margin: 20px auto;
+}
+.address{
+    margin-top: 10px;
+}
+.Schedule{
+    color: var(--title-color);
+    margin-top: 20px;
+}
+.ScheduleItem{
+    display: inline-block;
+    width: 50px;
+    margin-top: 10px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    fill: var(--background-color);
+}
+.icon li {
+    margin-right: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .Contacts {
+        display: flex;
+        justify-content:space-between;
+        width: 100%;        
+        padding: 0 10px;
+    }
+    .map{
+        width: 330px;
+        height: 330px;
+    }
+    .ContactList{
+        width: 240px;
+        margin: 0 10px;
+    }
+    .ContactTitle{
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ContactList{
+        width: 380px;
+        margin: 0 20px;        
+        font-size: 16px;
+    }
+    .ContactTitle{
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+    .map{
+        width: 370px;
+        height: 370px;
+    }
+    .Schedule{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .ContactList{
+        width: 600px;
+        margin: 0 20px;
+        font-size: 22px;
+    }
+    .ContactTitle{
+        font-size: 30px;
+    }
+    .map{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    .ScheduleItem{
+        width: 80px;
+    }
+}
+

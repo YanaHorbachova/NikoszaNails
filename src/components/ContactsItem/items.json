@@ -1,0 +1,21 @@
+{
+    "ru": {
+            "title": "Наши контакты", 
+            "text":"Связаться с нами",
+            "grafik":"Режим работы",
+            "item1":"Пн-Пт:",
+            "item2":"Сб:",
+            "item3":"Вс:",
+            "item4":"Выходной"
+    },
+
+    "pl": {
+            "title": "Łączność", 
+            "text":"Zadzwoń",
+            "grafik":"Godziny otwarcia",
+            "item1":"Pn-Pt:",
+            "item2":"Sb:",
+            "item3":"Nd:",
+            "item4":"Zamknięte"
+    }       
+}

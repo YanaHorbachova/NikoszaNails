@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import Section from '../../components/Section/Section';
-
+import SimpleMap from '../../components/ContactsItem/Map';
+import ContactList from '../../components/ContactsItem/ContactList';
+import {ru} from '../../components/ContactsItem/items.json'
+import s from '../../components/ContactsItem/Contacts.module.css'
 
 class Contacts  extends Component {
 
 render () {
     return (
-        <Section >     
-           <h2>Контакты</h2>
+        <Section >
+            <div className={s.Contacts}>           
+                <SimpleMap/>
+                <ContactList items={ru}/>
+            </div>
         </Section>
     );
 };
