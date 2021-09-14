@@ -4,12 +4,12 @@
     justify-content:flex-end;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: var(--white-color);
 }
 
 .text{
     padding: 0 10px;
     font-size: 12px;
     font-weight:bold;
-    color: var(--white-color)
+    color: var(--background-color);
 }

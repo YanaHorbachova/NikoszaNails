@@ -16,7 +16,7 @@ render () {
                 <img className={s.CoursesImg} src={Slide} alt='manicure'/>
                 <p className={s.CoursesText}>{UpGradePl.text}</p>
             </div>
-            <Button text={"Zapisz się na kurs"} link='https://web.telegram.org/z/#463272527'/>
+            <Button text={"Zapisz się na kurs"} link='https://t.me/nikosza'/>
         </Section>
     );
 };

@@ -33,4 +33,5 @@ a {
 body {
   font-family: 'Evolventa', sans-serif;
   color: var(--text-color);
+  background: url('./img/bg.jpg') 80%;
 }

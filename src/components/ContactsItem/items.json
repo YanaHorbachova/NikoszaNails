@@ -1,7 +1,9 @@
 {
     "ru": {
             "title": "Наши контакты", 
-            "text":"Связаться с нами",
+            "text":"Позвонить",
+            "instagram":"Перейти в Instagram",            
+            "booksy":"Перейти в Booksy",
             "grafik":"Режим работы",
             "item1":"Пн-Пт:",
             "item2":"Сб:",
@@ -10,12 +12,14 @@
     },
 
     "pl": {
-            "title": "Łączność", 
-            "text":"Zadzwoń",
+            "title": "Kontakt", 
+            "text":"Zadzwonić",            
+            "instagram":"Otworzyć Instagram",
+            "booksy":"Umówić się przez Booksy",
             "grafik":"Godziny otwarcia",
-            "item1":"Pn-Pt:",
-            "item2":"Sb:",
-            "item3":"Nd:",
+            "item1":"Pon-Pt:",
+            "item2":"Sob:",
+            "item3":"Niedz:",
             "item4":"Zamknięte"
     }       
 }

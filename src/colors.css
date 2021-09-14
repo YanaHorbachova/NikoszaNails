@@ -6,12 +6,15 @@
     --text-color: rgb(107, 107, 107);
     --title-color: #545454;
 
-    --background-color: #f76cac;
-    --background-color-section: rgba(240, 231, 237, 0.356);
-    --ligte-background-color: #f8bbcfd5; 
+    --background-color: #FA9DB9;
+    --background-color-section: #ffffff83;
+    --ligte-background-color: #FAE3EB; 
 
-    --button-color:#fa9cb0;
-    --ligte-button-color: #f793c1 ;
+    --button-color:#fa6f99c2;
+    --ligte-button-color: #fd78a6c9 ;
+
+    --button-nav-color:#fa9db9c7;
+    --ligte-nav-button-color: #ffa2c380 ;
 
   }
   

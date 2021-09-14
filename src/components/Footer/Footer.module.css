@@ -8,7 +8,7 @@
     height: 20px;
     padding: 0 10px;
     font-size: 12px;
-    background-color: var(--background-color);
+    background-color: var(--white-color);
     z-index: 10;
 }
 
@@ -30,11 +30,11 @@
 .SocialItem svg {
     width: 15px;
     height: 15px;
-    fill: var(--white-color);
+    fill: var(--background-color);
 }
 
 .logo {
-    color:var(--white-color);
+    color: var(--background-color);
 }
 
 @media screen and (min-width: 768px) {

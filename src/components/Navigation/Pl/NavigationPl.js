@@ -13,7 +13,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.team}
             activeClassName={s.LinkActive} >
-            Zespół
+            Team
           </NavLink>
         </li>
         <li  className={s.LinkItem}>
@@ -26,10 +26,10 @@ const Navigation = () =>{
         </li>
         <li  className={s.LinkItem}>
           <NavLink
-            className={s.Link}
+            className={s.LinkBig}
             to={routes.work}
             activeClassName={s.LinkActive} >
-            Praca
+            Nasze Prace
           </NavLink>
         </li>
         <li  className={s.LinkItem}>
@@ -45,7 +45,7 @@ const Navigation = () =>{
             className={s.Link}
             to={routes.contacts}
             activeClassName={s.LinkActive} >
-            Łączność
+            Kontakt
           </NavLink>
         </li>
       </ul>

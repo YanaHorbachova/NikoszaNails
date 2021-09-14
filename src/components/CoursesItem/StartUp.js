@@ -17,7 +17,7 @@ render () {
                 <img className={s.CoursesImg} src={Slide} alt='manicure'/>
                 <p className={s.CoursesText}>{StartUpRu.text}</p>
             </div>
-            <Button text={"Записаться на курс"} link='https://web.telegram.org/z/#463272527'/>
+            <Button text={"Записаться на курс"} link='https://t.me/nikosza'/>
         </Section>
     );
 }};

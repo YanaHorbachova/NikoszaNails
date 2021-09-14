@@ -17,14 +17,14 @@ const SalonNav = () =>  {
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.price}`}} >
-               Cena
+               Cennik
             </NavLink>
             
             <NavLink 
             className={s.Link_salon} 
             activeClassName={s.LinkActive_salon}
             to={{pathname: `${routes.reviews}`}} >
-                Recenzje
+                Opinię
             </NavLink>
 
         </div>              

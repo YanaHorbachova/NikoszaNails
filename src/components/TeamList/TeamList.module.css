@@ -15,6 +15,7 @@
     padding: 10px;
     font-size: 14px;
     text-align: center;
+    background-color: var(--background-color-section); 
 }
 .title{
     margin-bottom: 10px;
@@ -47,7 +48,6 @@
     .InfoBloсk {
         padding: 15px;
         font-size: 20px; 
-        background-color: var(--background-color-section);  
     }
     .title{
         margin-bottom: 15px;

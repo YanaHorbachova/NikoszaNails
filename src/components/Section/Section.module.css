@@ -5,6 +5,7 @@
     width: calc(94%);
     height: 100%;
     margin: auto;
+    margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px 5px;
     background-color: var(--background-color-section);
@@ -13,14 +14,14 @@
 @media screen and (min-width: 768px) {
     .section {
         width: calc(88%);    
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 10px 10px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .section {    
-        margin-top: 15px;
+        margin-top: 25px;
         padding: 15px 10px;
     }
 }
